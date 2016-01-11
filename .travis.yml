@@ -7,4 +7,4 @@ android:
     
 script: 
  - cd MAGPIE/  
- - ./gradlew build connectedCheck
+ - ./gradlew build connectedCheck --info
