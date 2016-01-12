@@ -29,4 +29,5 @@ script:
  - cd MAGPIE/  
  - chmod +x ./gradlew
  - chmod +x gradlew
+  - ./gradlew clean
  - ./gradlew build connectedCheck -p sample-sensor
