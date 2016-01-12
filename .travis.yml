@@ -26,4 +26,4 @@ script:
 # - chmod +x ./gradlew
 # - chmod +x gradlew
  - cd MAGPIE/  
- - ./gradlew tasks
+ - ./gradlew build connectedCheck
