@@ -46,11 +46,6 @@ public class AgentTest extends AndroidTestCase {
     }
 
     public void testAgentMind() {
-try {
-    Thread.sleep(2000);                 //1000 milliseconds is one second.
-} catch(InterruptedException ex) {
-    Thread.currentThread().interrupt();
-}
 
         //getContext().getResources().;
         PrologAgentMind mind = new PrologAgentMind(getContext(), R.raw.monitoring_rules);
