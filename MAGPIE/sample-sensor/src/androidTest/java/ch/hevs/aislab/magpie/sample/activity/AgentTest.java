@@ -65,7 +65,7 @@ public class AgentTest extends AndroidTestCase {
         mind.updatePerception(ev2);
         LogicTupleEvent alertOne = (LogicTupleEvent) mind.produceAction(1418660940000L);
 
-        assertEquals(alertOne.toTuple(), "act(act(produce_alert(second,'Brittle diabetes')),1418660940001)");
+        assertEquals(alertOne.toTuple(), "act(act(produce_alert(second,'Brittle diabetes')),141866094000)");
         // *************** Test 1 ***************
 
         // *************** Test 2 ***************
